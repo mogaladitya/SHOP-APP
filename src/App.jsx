@@ -8,6 +8,7 @@ const App = () => {
   return (<div>
         <div className="bg-slate-900">
           <Navbar/>
+          <Home/>
         </div>
         <Routes>
           <Route path="/" element={<Home/>} />
